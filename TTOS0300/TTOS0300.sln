@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFHello", "WPFKello\WPFHello.csproj", "{39D242B8-60AB-407B-85F6-0E7EFA064D87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra9T2", "Labra9T2\Labra9T2.csproj", "{533F71A7-93C2-41B7-A7C6-DF02780A0B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra9T3", "Labra9T3\Labra9T3.csproj", "{D592D430-7B6E-47BB-8326-10EC5E32A558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{39D242B8-60AB-407B-85F6-0E7EFA064D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D242B8-60AB-407B-85F6-0E7EFA064D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D242B8-60AB-407B-85F6-0E7EFA064D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533F71A7-93C2-41B7-A7C6-DF02780A0B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533F71A7-93C2-41B7-A7C6-DF02780A0B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533F71A7-93C2-41B7-A7C6-DF02780A0B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533F71A7-93C2-41B7-A7C6-DF02780A0B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D592D430-7B6E-47BB-8326-10EC5E32A558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D592D430-7B6E-47BB-8326-10EC5E32A558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D592D430-7B6E-47BB-8326-10EC5E32A558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D592D430-7B6E-47BB-8326-10EC5E32A558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
