@@ -20,9 +20,26 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
+        int rekkalaskuri;
+        int autolaskuri;
         public MainWindow()
         {
             InitializeComponent();
+            rekkalaskuri = 0;
+            autolaskuri = 0;
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            rekkalaskuri++;
+            textBlock.Text = Convert.ToString(rekkalaskuri);
+
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            autolaskuri++;
+            textBlock1.Text = Convert.ToString(autolaskuri);
         }
     }
 }

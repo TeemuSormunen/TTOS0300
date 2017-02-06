@@ -11,10 +11,10 @@
             <ColumnDefinition Width="168*"/>
             <ColumnDefinition Width="349*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Trucks" HorizontalAlignment="Left" Margin="130,95,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
-        <Button x:Name="button1" Content="Cars" HorizontalAlignment="Left" Margin="119,95,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="119.107,144,0,0" TextWrapping="Wrap" Text="Car count" VerticalAlignment="Top" Grid.Column="1"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="130,144,0,0" TextWrapping="Wrap" Text="Truck count" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Button x:Name="button" Content="Trucks" HorizontalAlignment="Left" Margin="130,95,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="button_Click"/>
+        <Button x:Name="button1" Content="Cars" HorizontalAlignment="Left" Margin="119,95,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="button1_Click"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="119.107,144,0,0" TextWrapping="Wrap" Text="Car count" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="130,144,0,0" TextWrapping="Wrap" Text="Truck count" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
