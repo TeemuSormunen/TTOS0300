@@ -24,5 +24,28 @@ namespace Labra9T3
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int korkeus = Convert.ToInt32(textBox.Text);
+                int leveys = Convert.ToInt32(textBox1.Text);
+                int karmipuu = Convert.ToInt32(textBox2.Text);
+
+                int ikkunanala = korkeus * leveys / 10;
+                int lasinala = ((korkeus - karmipuu) * (leveys - karmipuu)) / 10;
+                int karmipituus = (leveys * 2 + korkeus * 2) / 10;
+
+                textBox3.Text = Convert.ToString(ikkunanala + " cm ^ 2");
+                textBox4.Text = Convert.ToString(lasinala + " cm^2");
+                textBox5.Text = Convert.ToString(karmipituus + " cm");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("You need to fill the form");
+            }
+
+        }
     }
 }
