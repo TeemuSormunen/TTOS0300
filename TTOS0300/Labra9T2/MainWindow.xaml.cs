@@ -27,16 +27,32 @@ namespace Labra9T2
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            double valuutta = Convert.ToDouble(textBox.Text);
+            try
+            {
+                double valuutta = Convert.ToDouble(textBox.Text);
 
-            textBlock.Text = Convert.ToString(valuutta * 5.94);
+                textBlock.Text = Convert.ToString(valuutta * 5.94);
+            }
+            
+            catch (Exception)
+            {
+                MessageBox.Show("Textbox can't be empty");
+            }
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            double valuutta = Convert.ToDouble(textBox.Text);
+            try
+            {
+                double valuutta = Convert.ToDouble(textBox.Text);
 
-            textBlock.Text = Convert.ToString(valuutta / 5.94);
+                textBlock.Text = Convert.ToString(valuutta / 5.94);
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Textbox can't be empty");
+            }
 
         }
     }
