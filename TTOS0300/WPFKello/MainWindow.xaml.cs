@@ -36,6 +36,7 @@ namespace WPFKello
             MessageBox.Show("Terve " + textBox.Text, "Teemu's");
 
             textBlock1.Text = Convert.ToString(i);
+            txbMessages.Text = "Painoit nappia " + button;
         }
 
         private void button_copy_Click(object sender, RoutedEventArgs e)
@@ -44,6 +45,12 @@ namespace WPFKello
             about aboutWin = new WPFKello.about();
             //huom ikkuna voi olla joko modaalinen tai tavallinen
             aboutWin.Show();
+
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

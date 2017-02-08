@@ -33,8 +33,8 @@ namespace Labra9T3
                 int leveys = Convert.ToInt32(textBox1.Text);
                 int karmipuu = Convert.ToInt32(textBox2.Text);
 
-                int ikkunanala = korkeus * leveys / 10;
-                int lasinala = ((korkeus - karmipuu) * (leveys - karmipuu)) / 10;
+                int ikkunanala = korkeus * leveys / 100;
+                int lasinala = ((korkeus - karmipuu) * (leveys - karmipuu)) / 100;
                 int karmipituus = (leveys * 2 + korkeus * 2) / 10;
 
                 textBox3.Text = Convert.ToString(ikkunanala + " cm ^ 2");
