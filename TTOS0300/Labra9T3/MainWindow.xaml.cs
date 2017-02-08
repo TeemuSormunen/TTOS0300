@@ -41,9 +41,9 @@ namespace Labra9T3
                 textBox4.Text = Convert.ToString(lasinala + " cm^2");
                 textBox5.Text = Convert.ToString(karmipituus + " cm");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("You need to fill the form");
+                MessageBox.Show(ex.Message);
             }
 
         }

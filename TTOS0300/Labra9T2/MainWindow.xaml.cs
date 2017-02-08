@@ -34,9 +34,9 @@ namespace Labra9T2
                 textBlock.Text = Convert.ToString(valuutta * 5.94);
             }
             
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Textbox can't be empty");
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -49,9 +49,9 @@ namespace Labra9T2
                 textBlock.Text = Convert.ToString(valuutta / 5.94);
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Textbox can't be empty");
+                MessageBox.Show(ex.Message);
             }
 
         }
